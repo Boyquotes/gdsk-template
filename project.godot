@@ -14,6 +14,15 @@ config/name="Test Godot New"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+SceneLoader="*res://addons/SolanaSDK/Autoload/SceneLoader.tscn"
+SolanaService="*res://addons/SolanaSDK/Autoload/SolanaService.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/SolanaSDK/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
